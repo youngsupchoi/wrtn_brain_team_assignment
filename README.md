@@ -62,6 +62,7 @@ test[16], test[62]
 
 ## 결과 확인
 
+bach api적용 및 input, output json파일을 준비하지 못하여 아래 파일로 대체하였습니다. 죄송합니다.
 처리된 output 값은 test_results_post.json파일 내에서 확인 가능합니다.
 
 ### processed_choice
