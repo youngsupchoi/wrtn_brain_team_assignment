@@ -120,13 +120,13 @@ def add_vector_to_index(vectorStore: PineconeVectorStore, documents: list[Docume
 # sparse_vector_retriever 생성
 def create_sparse_vector_retriever(docs: Document) -> BM25Retriever:
     print("\n","L", end="")
-    print("🚀 sparse_vector_retriever 생성 중...", end="")
+    print("🚀 sparse_vector_retrieval 생성 중...", end="")
     kiwi = Kiwi()
     def kiwi_tokenize(text):
         return [token.form for token in kiwi.tokenize(text)]
 
     kiwi_bm25 = BM25Retriever.from_documents(docs, preprocess_func=kiwi_tokenize)
-    print("✅ sparse_vector_retriever 생성 완료!")
+    print("✅ sparse_vector_retrieval 생성 완료!")
     return kiwi_bm25
 
 # dense_vector_retriever 생성
