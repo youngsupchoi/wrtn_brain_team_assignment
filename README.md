@@ -92,3 +92,8 @@ bach api적용 및 input, output json파일을 준비하지 못하여 아래 파
 | `generated_answer` | 모델이 최종적으로 생성한 답변 |
 | `is_correct` | 모델의 답변이 정답인지 여부 (`True` 또는 `False`) |
 | `original_answer` | 데이터셋에 제공된 정답 |
+
+# 모듈 구조
+
+아래 링크내에서 전체 구조도 확인이 가능합니다.
+https://excalidraw.com/#room=44a788994d5241278aae,ZyyIpn1CsNfiomDZAU5MRQ
