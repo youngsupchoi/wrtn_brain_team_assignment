@@ -98,3 +98,6 @@ bach api적용 및 input, output json파일을 준비하지 못하여 아래 파
 
 아래 링크내에서 전체 구조도 확인이 가능합니다.
 https://excalidraw.com/#room=44a788994d5241278aae,ZyyIpn1CsNfiomDZAU5MRQ
+![alt text](image-1.png)
+
+![alt text](image-2.png)
